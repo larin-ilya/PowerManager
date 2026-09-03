@@ -3,6 +3,8 @@
 Утилита для перезагрузки / выключения Windows-ПК — с таймерами, без лишних
 подтверждений. Требует права администратора.
 
+![Power Manager 2.0](screenshot.jpg)
+
 ## Возможности (v2)
 
 - **Таймеры выключения/перезагрузки**: сейчас (без задержки), через 10 с,
@@ -24,6 +26,7 @@
 | `make_icon.py` | Генератор иконки `power.ico` (только stdlib, без зависимостей) |
 | `power.ico` | Иконка приложения (многоразмерная, PNG-входы) |
 | `PowerManager.spec` | Конфигурация сборки PyInstaller (onefile, windowed, UAC admin) |
+| `screenshot.jpg` | Скриншот приложения (в начале README) |
 | `dist/PowerManager.exe` | Standalone-сборка (PyInstaller, onefile, без консоли) |
 
 ## Запуск из исходников
